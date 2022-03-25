@@ -1,0 +1,31 @@
+
+Access Key ID:AKIAQC774R7XA6S4345L
+Secret Access Key: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
+
+aws ec2 create-key-pair --key-name naga --query 'KeyMaterial' --output text > naga.pem
+
+aws ec2 create-security-group --group-name my-j --description "My security group" --vpc-id vpc-0d7b851646e4cef2b
+
+GroupId": "sg-0454f29bdef21f6c4
+
+
+aws ec2 describe-security-groups --group-ids sg-0d97900d6f3328179
+
+aws ec2 run-instances --image-id ami-033a6a056910d1137 --count 2 --instance-type t2.micro --key-name akKeyPair --security-group-ids sg-044e350fc4492153e --subnet-id subnet-05c120c09f9fb799d
+
+aws ec2 create-tags --resources i-084e73c07f2a7049a --tags Key=Name,Value=jyovm1
+
+
+sg-0ddbe75c037518c0e
+
+
+
+
+
+
+ubuntu
+
+Access Key ID:
+AKIAQC774R7XO73VPSCS
+Secret Access Key:
+w1UBkFglg8WL9DpgHpK2GVjeWxOL+o4Eh26IFzOP

@@ -1,0 +1,30 @@
+
+<html>
+<body bgcolor=green>
+<marquee>
+<font color=black>
+<h1> Welcome to JYOTHI Softtech India Webserver thank you </h1>
+</font>
+</marquee>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

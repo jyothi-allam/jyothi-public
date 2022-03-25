@@ -1,0 +1,39 @@
+Access Key ID: AKIAQC774R7XBJISXMP4
+Secret Access Key: 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
+
+gpg --import public-key-file-name
+
+aws ec2 create-key-pair --key-name mkp --query 'KeyMaterial' --output text > mkp.pem
+
+aws ec2 create-security-group --group-name my-sg2099 --description "My security group" --vpc-0d7b851646e4cef2b
+aws ec2 create-security-group --group-name my-sghg2099 --description "My security group" --vpc-id vpc-0bb4b360aa453f409
+
+sgi        sg-0d97900d6f3328179
+
+
+;"GroupId": "sg-0796aedb4a27a987a"
+
+"GroupId": "sg-0796aedb4a27a987a"
+aws ec2 describe-security-groups --group-ids sg-0796aedb4a27a987aaws ec2 create-tags --resources i-5203422c --tags Key=Name,Value=MyInstance
+aws ec2 run-instances --image-id ami-053f895f7a979d535 --count 2 --instance-type t2.micro --key-name mkp --security-group-ids sg-0d97900d6f3328179 --subnet-id subnet-05c120c09f9fb799d
+
+aws ec2 create-tags --resources i-5203422c --tags Key=VM1,Value=MyInstance
+aws ec2 create-tags --resources i-0c501750c456fb5e8 --tags Key=Name,Value=window2012
+
+
+
+
+ubuntu
+===========================
+aws ec2 create-key-pair --key-name akKeyPair --query 'KeyMaterial' --output text > keycli.pem
+
+
+aws ec2 create-security-group --group-name ak-sg --description "ak security group" --vpc-id vpc-0bb4b360aa453f409
+
+sg-"sg-044e350fc4492153e"      "sg-044e350fc4492153e"
+
+03c32de4216a03c98
+
+aws ec2 run-instances --image-id ami-04505e74c0741db8d --count 2 --instance-type t2.micro --key-name ajKeyPair --security-group-ids sg-03c32de4216a03c98 --subnet-id subnet-01858fc998ac5b575
+
+aws ec2 create-tags --resources i-0c608255fc916b2c7 --tags Key=Name,Value=VMCLI
